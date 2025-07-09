@@ -36,45 +36,6 @@ Este projeto combina **SQL** e **Python** para análise exploratória de dados d
 
 ---
 
-## ▶️ Como rodar o projeto localmente
-
-### 1. Clone o repositório
-
-```bash
-git clone https://github.com/laviniahaddad/sql-python-vendas.git
-cd sql-python-vendas
-
-2. Instale as dependências
-bash
-Copiar
-Editar
-pip install -r requirements.txt
-
-3. Crie o banco PostgreSQL
-Abra o pgAdmin ou outro gerenciador.
-
-Crie um banco chamado projeto_vendas.
-
-Execute o script vendas.sql para criar a tabela e inserir os dados.
-
-4. Configure a conexão no app.py
-Altere os dados de conexão:
-
-python
-Copiar
-Editar
-conn_params = {
-    'host': 'localhost',
-    'port': '5432',
-    'database': 'projeto_vendas',
-    'user': 'seu_usuario',
-    'password': 'sua_senha'
-}
-5. Rode o app Streamlit
-bash
-Copiar
-Editar
-streamlit run app.py
 🧰 Tecnologias Utilizadas
 Python 3.x
 
