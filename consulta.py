@@ -1,6 +1,6 @@
 import psycopg2
 
-# Dados da conexão (substitua pelos seus)
+# Dados da conexão 
 conn = psycopg2.connect(
     host="localhost",
     database="vendas_db",
